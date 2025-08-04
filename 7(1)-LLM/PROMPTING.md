@@ -4,10 +4,13 @@
 |---|---|---|---|
 |**0 shot**|22.00%|56.00%|66.00%|
 |**3 shot**|16.00%|58.00%|70.00%|
-|**5 shot**|16.00%|74.00%|62.00%|
+|**5 shot**|16.00%|66.00%|62.00%|
 
 2. CoT Prompting이 Direct Prompting에 비해 좋을 수 있는 이유
+   
+CoT Prompting은 Chain of Thought, 즉, 문제 해결의 과정을 단계별로 나누어 추론하는 것이다. 
+그에 비해 Direct Prompting은 주어진 문제를 그대로 prompt에 넣기 때문에 답변을
 
+4. My Prompting이 CoT Prompting에 비해 좋을 수 있는 이유
 
-3. My Prompting이 CoT Prompting에 비해 좋을 수 있는 이유
 
