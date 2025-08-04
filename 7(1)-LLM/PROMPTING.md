@@ -2,9 +2,9 @@
 
    |정답률|Direct|CoT|My|
    |---|---|---|---|
-   |**0 shot**|22.00%|56.00%|70.00%|
-   |**3 shot**|16.00%|58.00%|72.00%|
-   |**5 shot**|16.00%|66.00%|70.00%|
+   |**0 shot**|22.00%|56.00%|68.00%|
+   |**3 shot**|16.00%|58.00%|70.00%|
+   |**5 shot**|16.00%|66.00%|68.00%|
 
 2. CoT Prompting이 Direct Prompting에 비해 좋을 수 있는 이유
    
@@ -13,4 +13,4 @@
 
 4. My Prompting이 CoT Prompting에 비해 좋을 수 있는 이유
 
-   My Prompting은 DeBoP를 사용하였다. DeBoP(Direct Behavior Optimization)는 기존에 사용한 CoT를 발전시킨 것으로, CoT와 달리 LLM의 행동을 직접 최적화한다. DeBoP는 정확도가 높아 성능이 좋을 뿐만 아니라 계산 시간을 단축시킨다. 
+   My Prompting은 DeBoP를 사용하였다. DeBoP(Direct Behavior Optimization)는 기존에 사용한 CoT를 발전시킨 것으로, CoT와 달리 LLM의 행동을 직접 최적화한다. DeBoP는 정확도가 높아 성능이 좋을 뿐만 아니라 계산 시간을 단축시킨다. CoT에서 발전된 모형이기 때문에, 더 좋은 정답률을 보인다고 할 수 있다. 
